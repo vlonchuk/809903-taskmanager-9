@@ -10,7 +10,7 @@ let renderComponent = (container, content) => {
   container.innerHTML += content;
 };
 
-let main = document.querySelector(`.main`)
+let main = document.querySelector(`.main`);
 let menu = main.querySelector(`.control__btn-wrap`);
 let searchContainer = main.querySelector(`.main__search`);
 let filterContainer = main.querySelector(`.main__filter`);
